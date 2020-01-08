@@ -6,5 +6,6 @@ Rails.application.routes.draw do
 
 
 
-  
+  get '/levelone', to: 'games#levelone'
+
 end

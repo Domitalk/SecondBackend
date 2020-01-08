@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_01_195301) do
+ActiveRecord::Schema.define(version: 2020_01_01_223009) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -44,7 +44,7 @@ ActiveRecord::Schema.define(version: 2020_01_01_195301) do
     t.integer "health"
     t.integer "maxhealth"
     t.integer "level"
-    t.string "class"
+    t.string "fight_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
