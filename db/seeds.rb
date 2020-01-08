@@ -33,65 +33,65 @@ Enemy.destroy_all
 
 e1 = Enemy.create(
     name: "enemy1",
-    attack: 1,
-    defense: 1,
-    health: 10,
-    maxhealth: 10,
+    attack: 11,
+    defense: 10,
+    health: 100,
+    maxhealth: 100,
     spritesheet: "",
-    exp: 10
+    exp: 100
 )
 e2 = Enemy.create(
     name: "enemy2",
-    attack: 2,
-    defense: 2,
-    health: 15,
-    maxhealth: 15,
+    attack: 12,
+    defense: 12,
+    health: 150,
+    maxhealth: 150,
     spritesheet: "",
-    exp: 20
+    exp: 200
 )
 e3 = Enemy.create(
     name: "enemy3",
-    attack: 3,
-    defense: 3,
-    health: 20,
-    maxhealth: 20,
+    attack: 15,
+    defense: 15,
+    health: 170,
+    maxhealth: 170,
     spritesheet: "",
-    exp: 30
+    exp: 300
 )
 e4 = Enemy.create(
     name: "enemy4",
-    attack: 4,
-    defense: 3,
-    health: 25,
-    maxhealth: 25,
+    attack: 20,
+    defense: 15,
+    health: 230,
+    maxhealth: 230,
     spritesheet: "",
-    exp: 40
+    exp: 400
 )
 e5 = Enemy.create(
     name: "enemy5",
-    attack: 2,
-    defense: 5,
-    health: 40,
-    maxhealth: 40,
+    attack: 10,
+    defense: 25,
+    health: 400,
+    maxhealth: 400,
     spritesheet: "",
-    exp: 45
+    exp: 450
 )
 e6 = Enemy.create(
     name: "enemy6",
-    attack: 4,
-    defense: 4,
-    health: 30,
-    maxhealth: 30,
+    attack: 25,
+    defense: 25,
+    health: 300,
+    maxhealth: 300,
     spritesheet: "",
-    exp: 50
+    exp: 500
 )
 
 b1 = Enemy.create(
     name: "boss1",
-    attack: 5,
-    defense: 5,
-    health: 50,
-    maxhealth: 50,
+    attack: 50,
+    defense: 25,
+    health: 500,
+    maxhealth: 500,
     spritesheet: "",
-    exp: 100
+    exp: 1000
 )
